@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../terraform-provider-google/website/docs/d",
+			"name": "terraform/data-source"
+		},
+		{
+			"path": "../terraform-provider-google/website/docs/r",
+			"name": "terraform/resource"
+		},
+		{
+			"path": "../terraform/website/docs/language/tests",
+			"name": "terraform/tests"
+		},
+		{
+			"path": "../terraform-github-repo"
+		}
+	],
+	"settings": {}
+}
