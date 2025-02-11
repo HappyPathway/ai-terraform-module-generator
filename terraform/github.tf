@@ -59,3 +59,27 @@ module "infrastructure_repo" {
   github_has_issues     = true
   gitignore_template    = "Terraform"
 }
+
+module "vpc_module_repo" {
+  source                = "HappyPathway/repo/github"
+  name                  = "terraform-aws-tfvpc"
+  repo_org              = "HappyPathway"
+  force_name            = true
+  github_repo_description = "Terraform module for creating VPCs in AWS"
+  github_repo_topics    = ["terraform", "aws", "vpc", "networking"]
+  github_is_private     = false
+  github_has_issues     = true
+  gitignore_template    = "Terraform"
+}
+
+module "storage_module_repo" {
+  source                = "HappyPathway/repo/github"
+  name                  = "terraform-azure-tfstorage" 
+  repo_org              = "HappyPathway"
+  force_name            = true
+  github_repo_description = "Terraform module for creating Storage Accounts in Azure"
+  github_repo_topics    = ["terraform", "azure", "storage"]
+  github_is_private     = false
+  github_has_issues     = true
+  gitignore_template    = "Terraform"
+}

@@ -1,19 +1,17 @@
 {
 	"folders": [
 		{
+			"path": "../ai-terraform-module-generator-backend",
+			"name": "registry"
+		},
+		{
 			"path": "."
 		},
 		{
-			"path": "../ai-terraform-module-generator-frontend",
-			"name": "frontend"
+			"path": "../terraform/website/docs/internals"
 		},
 		{
-			"path": "../ai-terraform-module-generator-backend",
-			"name": "backend"
-		},
-		{
-			"path": "../ai-terraform-module-generator-infrastructure",
-			"name": "infrastructure"
+			"path": "../../.terraform.d"
 		}
 	],
 	"settings": {}
